@@ -12,6 +12,15 @@
 		3624FB612A32F6CD00D9BD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3624FB602A32F6CD00D9BD20 /* Assets.xcassets */; };
 		3624FB642A32F6CD00D9BD20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3624FB632A32F6CD00D9BD20 /* Preview Assets.xcassets */; };
 		3624FB6F2A32F75800D9BD20 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB6E2A32F75800D9BD20 /* TicketView.swift */; };
+		3624FB712A32F8E200D9BD20 /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB702A32F8E200D9BD20 /* TicketData.swift */; };
+		3624FB772A32FA6900D9BD20 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB762A32FA6900D9BD20 /* Ticket.swift */; };
+		3624FB802A33007700D9BD20 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB7F2A33007700D9BD20 /* utils.swift */; };
+		3624FB862A3300CC00D9BD20 /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB812A3300CC00D9BD20 /* StatusUI.swift */; };
+		3624FB872A3300CC00D9BD20 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB822A3300CC00D9BD20 /* CircleBackground.swift */; };
+		3624FB882A3300CC00D9BD20 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB832A3300CC00D9BD20 /* ScrollSection.swift */; };
+		3624FB892A3300CC00D9BD20 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB842A3300CC00D9BD20 /* CustomSearchBar.swift */; };
+		3624FB8A2A3300CC00D9BD20 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB852A3300CC00D9BD20 /* CustomTabBar.swift */; };
+		3624FB8C2A3309D200D9BD20 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB8B2A3309D200D9BD20 /* Tickets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +30,15 @@
 		3624FB602A32F6CD00D9BD20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3624FB632A32F6CD00D9BD20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3624FB6E2A32F75800D9BD20 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		3624FB702A32F8E200D9BD20 /* TicketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
+		3624FB762A32FA6900D9BD20 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		3624FB7F2A33007700D9BD20 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		3624FB812A3300CC00D9BD20 /* StatusUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
+		3624FB822A3300CC00D9BD20 /* CircleBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		3624FB832A3300CC00D9BD20 /* ScrollSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		3624FB842A3300CC00D9BD20 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		3624FB852A3300CC00D9BD20 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		3624FB8B2A3309D200D9BD20 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,9 @@
 		3624FB5B2A32F6CB00D9BD20 /* TicketApp */ = {
 			isa = PBXGroup;
 			children = (
+				3624FB7F2A33007700D9BD20 /* utils.swift */,
+				3624FB752A32FA5F00D9BD20 /* Cards */,
+				3624FB722A32F92900D9BD20 /* ViewModels */,
 				3624FB6D2A32F74E00D9BD20 /* Views */,
 				3624FB6C2A32F74B00D9BD20 /* Buttons */,
 				3624FB6B2A32F74300D9BD20 /* Data */,
@@ -76,6 +97,11 @@
 		3624FB6A2A32F74000D9BD20 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				3624FB822A3300CC00D9BD20 /* CircleBackground.swift */,
+				3624FB842A3300CC00D9BD20 /* CustomSearchBar.swift */,
+				3624FB852A3300CC00D9BD20 /* CustomTabBar.swift */,
+				3624FB832A3300CC00D9BD20 /* ScrollSection.swift */,
+				3624FB812A3300CC00D9BD20 /* StatusUI.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -83,6 +109,7 @@
 		3624FB6B2A32F74300D9BD20 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				3624FB702A32F8E200D9BD20 /* TicketData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -100,6 +127,22 @@
 				3624FB6E2A32F75800D9BD20 /* TicketView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3624FB722A32F92900D9BD20 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3624FB752A32FA5F00D9BD20 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				3624FB762A32FA6900D9BD20 /* Ticket.swift */,
+				3624FB8B2A3309D200D9BD20 /* Tickets.swift */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,8 +215,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3624FB872A3300CC00D9BD20 /* CircleBackground.swift in Sources */,
 				3624FB6F2A32F75800D9BD20 /* TicketView.swift in Sources */,
+				3624FB882A3300CC00D9BD20 /* ScrollSection.swift in Sources */,
+				3624FB802A33007700D9BD20 /* utils.swift in Sources */,
+				3624FB8A2A3300CC00D9BD20 /* CustomTabBar.swift in Sources */,
+				3624FB772A32FA6900D9BD20 /* Ticket.swift in Sources */,
+				3624FB862A3300CC00D9BD20 /* StatusUI.swift in Sources */,
+				3624FB8C2A3309D200D9BD20 /* Tickets.swift in Sources */,
+				3624FB712A32F8E200D9BD20 /* TicketData.swift in Sources */,
 				3624FB5F2A32F6CB00D9BD20 /* ContentView.swift in Sources */,
+				3624FB892A3300CC00D9BD20 /* CustomSearchBar.swift in Sources */,
 				3624FB5D2A32F6CB00D9BD20 /* TicketAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
