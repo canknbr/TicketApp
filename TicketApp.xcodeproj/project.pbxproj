@@ -11,6 +11,7 @@
 		3624FB5F2A32F6CB00D9BD20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB5E2A32F6CB00D9BD20 /* ContentView.swift */; };
 		3624FB612A32F6CD00D9BD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3624FB602A32F6CD00D9BD20 /* Assets.xcassets */; };
 		3624FB642A32F6CD00D9BD20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3624FB632A32F6CD00D9BD20 /* Preview Assets.xcassets */; };
+		3624FB6F2A32F75800D9BD20 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624FB6E2A32F75800D9BD20 /* TicketView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3624FB5E2A32F6CB00D9BD20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3624FB602A32F6CD00D9BD20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3624FB632A32F6CD00D9BD20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3624FB6E2A32F75800D9BD20 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,10 @@
 		3624FB5B2A32F6CB00D9BD20 /* TicketApp */ = {
 			isa = PBXGroup;
 			children = (
+				3624FB6D2A32F74E00D9BD20 /* Views */,
+				3624FB6C2A32F74B00D9BD20 /* Buttons */,
+				3624FB6B2A32F74300D9BD20 /* Data */,
+				3624FB6A2A32F74000D9BD20 /* UI */,
 				3624FB5C2A32F6CB00D9BD20 /* TicketAppApp.swift */,
 				3624FB5E2A32F6CB00D9BD20 /* ContentView.swift */,
 				3624FB602A32F6CD00D9BD20 /* Assets.xcassets */,
@@ -65,6 +71,35 @@
 				3624FB632A32F6CD00D9BD20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3624FB6A2A32F74000D9BD20 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3624FB6B2A32F74300D9BD20 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3624FB6C2A32F74B00D9BD20 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		3624FB6D2A32F74E00D9BD20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3624FB6E2A32F75800D9BD20 /* TicketView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3624FB6F2A32F75800D9BD20 /* TicketView.swift in Sources */,
 				3624FB5F2A32F6CB00D9BD20 /* ContentView.swift in Sources */,
 				3624FB5D2A32F6CB00D9BD20 /* TicketAppApp.swift in Sources */,
 			);
